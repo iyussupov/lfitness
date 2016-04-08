@@ -41,7 +41,7 @@ class AboutVC: UIViewController {
         slideshow.pageControl.pageIndicatorTintColor = UIColor.lightGrayColor()
         slideshow.contentScaleMode = UIViewContentMode.ScaleToFill
         
-        slideshow.setImageInputs([ImageSource(imageString: "foto1")!, ImageSource(imageString: "foto5")!, ImageSource(imageString: "foto3")!, ImageSource(imageString: "foto4")!])
+        slideshow.setImageInputs([ImageSource(imageString: "tur1")!, ImageSource(imageString: "tur5")!, ImageSource(imageString: "tur3")!, ImageSource(imageString: "tur4")!])
         
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(AboutVC.click))
         slideshow.addGestureRecognizer(recognizer)

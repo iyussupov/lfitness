@@ -1348,7 +1348,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jvk-Zf-be6">
                                                 <rect key="frame" x="16" y="314" width="343" height="44"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="0JA-Ec-FcK">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btn_bg_2" translatesAutoresizingMaskIntoConstraints="NO" id="0JA-Ec-FcK">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="44"/>
                                                     </imageView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PR1-cP-uqw">
@@ -1360,7 +1360,7 @@
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЗАМОРОЗИТЬ КАРТУ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Rj-oU-JEr">
                                                                         <rect key="frame" x="0.0" y="0.0" width="144" height="17"/>
                                                                         <fontDescription key="fontDescription" name="Play-Bold" family="Play" pointSize="14"/>
-                                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
@@ -2016,7 +2016,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="СПОРТИВНЫЕ ЕДИНОБОРСТВА" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8M-Tc-H6a">
                                                     <rect key="frame" x="0.0" y="177" width="160" height="12"/>
                                                     <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="10"/>
-                                                    <color key="textColor" red="0.46274509800000002" green="0.74509803919999995" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -2275,7 +2275,7 @@
                                         <rect key="frame" x="10" y="31" width="30" height="36"/>
                                         <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="24"/>
                                         <state key="normal" title="">
-                                            <color key="titleColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="openMenu:" destination="5Zy-VD-m7v" eventType="touchUpInside" id="vDI-Sr-GsP"/>
@@ -2285,7 +2285,7 @@
                                         <rect key="frame" x="335" y="31" width="30" height="36"/>
                                         <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="24"/>
                                         <state key="normal" title="">
-                                            <color key="titleColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="openProfile:" destination="5Zy-VD-m7v" eventType="touchUpInside" id="rY6-HR-duM"/>
@@ -2294,7 +2294,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" misplaced="YES" text="НОВОСТИ / АКЦИИ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iri-j2-3ee">
                                         <rect key="frame" x="60" y="40" width="255" height="17"/>
                                         <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                        <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -2458,7 +2458,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЗАКАЗАТЬ КЛУБНУЮ КАРТУ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJw-2d-t0x">
                                                         <rect key="frame" x="47" y="17" width="195" height="17"/>
                                                         <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -2881,13 +2881,13 @@
                                             <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="2lz-ZY-BqD">
                                                 <rect key="frame" x="16" y="477" width="343" height="50"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="o9h-4i-53H">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg_2" translatesAutoresizingMaskIntoConstraints="NO" id="o9h-4i-53H">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ПРИСОЕДИНИТЬСЯ К КОМАНДЕ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXR-kI-bKd">
                                                         <rect key="frame" x="30" y="17" width="219" height="17"/>
                                                         <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyQ-W8-YBr">
@@ -3175,9 +3175,13 @@
                                                 <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YoJ-Bg-ygW" customClass="PanelsViewBorder" customModule="lfitness" customModuleProvider="target">
                                                     <rect key="frame" x="16" y="8" width="343" height="88"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="service_thumb_1" translatesAutoresizingMaskIntoConstraints="NO" id="iGS-AR-XIk">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="service_thumb_1" translatesAutoresizingMaskIntoConstraints="NO" id="iGS-AR-XIk">
                                                             <rect key="frame" x="0.0" y="0.0" width="343" height="88"/>
                                                         </imageView>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4RJ-Pb-FsK">
+                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="88"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                                        </view>
                                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-water" translatesAutoresizingMaskIntoConstraints="NO" id="6OV-5a-ZVq">
                                                             <rect key="frame" x="12" y="24" width="40" height="40"/>
                                                             <constraints>
@@ -3185,8 +3189,8 @@
                                                                 <constraint firstAttribute="height" constant="40" id="jZg-Uc-MbV"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="БАССЕЙН 25 М С МОРСКОЙ ВОДОЙ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxt-hq-gFF">
-                                                            <rect key="frame" x="64" y="28" width="189" height="33"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Тренажерный зал" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxt-hq-gFF">
+                                                            <rect key="frame" x="64" y="36" width="189" height="17"/>
                                                             <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -3198,8 +3202,12 @@
                                                         <constraint firstItem="iGS-AR-XIk" firstAttribute="top" secondItem="YoJ-Bg-ygW" secondAttribute="top" id="3OI-Hb-KDn"/>
                                                         <constraint firstItem="iGS-AR-XIk" firstAttribute="leading" secondItem="YoJ-Bg-ygW" secondAttribute="leading" id="3OT-Bw-hbV"/>
                                                         <constraint firstItem="Lxt-hq-gFF" firstAttribute="leading" secondItem="6OV-5a-ZVq" secondAttribute="trailing" constant="12" id="77z-xJ-IH2"/>
+                                                        <constraint firstItem="4RJ-Pb-FsK" firstAttribute="leading" secondItem="YoJ-Bg-ygW" secondAttribute="leading" id="Hlq-VL-725"/>
                                                         <constraint firstItem="6OV-5a-ZVq" firstAttribute="leading" secondItem="YoJ-Bg-ygW" secondAttribute="leading" constant="12" id="JWF-zk-YE0"/>
+                                                        <constraint firstItem="4RJ-Pb-FsK" firstAttribute="top" secondItem="YoJ-Bg-ygW" secondAttribute="top" id="LGa-uU-dHw"/>
+                                                        <constraint firstAttribute="bottom" secondItem="4RJ-Pb-FsK" secondAttribute="bottom" id="Oq0-IN-qlW"/>
                                                         <constraint firstAttribute="bottom" secondItem="iGS-AR-XIk" secondAttribute="bottom" id="P1l-yJ-Pv3"/>
+                                                        <constraint firstAttribute="trailing" secondItem="4RJ-Pb-FsK" secondAttribute="trailing" id="Qcv-hx-Q66"/>
                                                         <constraint firstItem="Lxt-hq-gFF" firstAttribute="centerY" secondItem="YoJ-Bg-ygW" secondAttribute="centerY" id="ifG-da-OBv"/>
                                                         <constraint firstAttribute="height" constant="78" id="mcL-cp-AO3"/>
                                                         <constraint firstAttribute="trailing" secondItem="iGS-AR-XIk" secondAttribute="trailing" id="rNo-ly-eMn"/>
@@ -3363,13 +3371,13 @@
                                             <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Xe6-Kn-xUX">
                                                 <rect key="frame" x="16" y="219" width="343" height="50"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="kzJ-fP-bKG">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg_2" translatesAutoresizingMaskIntoConstraints="NO" id="kzJ-fP-bKG">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЗАКАЗАТЬ КЛУБНУЮ КАРТУ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cf-cg-8KB">
                                                         <rect key="frame" x="47" y="17" width="195" height="17"/>
                                                         <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fjt-O1-nJ2">
@@ -3531,7 +3539,7 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="630"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="G0d-69-7Is" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="620"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="639"/>
                                         <subviews>
                                             <view clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="2Lg-gc-Jtu" customClass="ImageSlideshow" customModule="ImageSlideshow">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="230"/>
@@ -3540,33 +3548,35 @@
                                                     <constraint firstAttribute="height" constant="230" id="NJa-Wv-pgE"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="ФИТНЕС КЛУБ X-FIT МОНАРХ - ПРЕМИАЛЬНЫЙ УРОВЕНЬ И РАЗМАХ БОЛЬШОГО ГОРОДА" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4I-3b-zSC">
-                                                <rect key="frame" x="16" y="246" width="343" height="56"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="СПОРТ-КЛУБ L-FITNESS " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4I-3b-zSC">
+                                                <rect key="frame" x="16" y="246" width="343" height="19"/>
                                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="16"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="900" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vQ5-gf-CjR">
-                                                <rect key="frame" x="16" y="318" width="343" height="168"/>
-                                                <string key="text">X-Fit Монарх расположен в Северо-Западном округе Москвы неподалеку от развязки Третьего транспортного кольца в одном комплексе с бизнес-центром. Наличие развитой внешней инфраструктуры дает возможность не только заняться фитнесом, но и шоппингом. В шаговой доступности есть дистанционный терминал аэропорта Шереметьево, где пассажиры могут пройти регистрацию на рейс, гостиница и много других незаменимых сервисов. Сам фитнес-клуб Динамо занимает отдельное 4-х этажное здание, а общая площадь составляет около 3 000м2. Пешая дорога от ближайшей станции метро Динамо до клуба отнимет не более 5 минут. </string>
+                                                <rect key="frame" x="16" y="281" width="343" height="224"/>
+                                                <mutableString key="text">С 2002 года – L-fitness представляет членам клуба полный комплекс фитнес- и wellness программ, групповой и индивидуальный тренинг, тренажерный зал, Детский клуб, бассейн, финскую и турецкую бани, SPA — кабинет, фитнес-бар.
+L-fitness — это уникальный опыт обучения у лучших специалистов Америки, Европы, России, Украины (World Class, Crossfit HQ, Aquarium, Международный университет пилатеса, Yoga Praktika, Fitnesservice, Высшая Лига, Планета Фитнес, Академия фитнеса, PortDeBras и многие другие), преобразованный в уникальную идеологию нового фитнес движения. Наша концепция – глубокое понимание идеальных форматов тренировки, правильного распределения физической нагрузки.
+Возможность тренироваться у признанных специалистов есть у Вас в Вашем городе!</mutableString>
                                                 <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="12"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="rpM-JA-v3S">
-                                                <rect key="frame" x="16" y="508" width="343" height="50"/>
+                                                <rect key="frame" x="16" y="527" width="343" height="50"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="QYW-66-RGb">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg_2" translatesAutoresizingMaskIntoConstraints="NO" id="QYW-66-RGb">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3D ПАНОРАМА" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zz2-HW-ZsN">
                                                         <rect key="frame" x="80" y="17" width="102" height="17"/>
                                                         <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSN-FZ-y8m">
-                                                        <rect key="frame" x="307" y="15" width="15" height="20"/>
+                                                        <rect key="frame" x="310" y="15" width="15" height="20"/>
                                                         <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="20"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -3581,11 +3591,11 @@
                                                     <constraint firstAttribute="trailing" secondItem="QYW-66-RGb" secondAttribute="trailing" id="dtU-4Z-xUt"/>
                                                     <constraint firstAttribute="bottom" secondItem="QYW-66-RGb" secondAttribute="bottom" id="nVY-rf-rnF"/>
                                                     <constraint firstItem="QSN-FZ-y8m" firstAttribute="centerY" secondItem="rpM-JA-v3S" secondAttribute="centerY" id="pvi-Tc-fD0"/>
-                                                    <constraint firstAttribute="trailing" secondItem="QSN-FZ-y8m" secondAttribute="trailing" constant="21" id="xrn-h2-p20"/>
+                                                    <constraint firstAttribute="trailing" secondItem="QSN-FZ-y8m" secondAttribute="trailing" constant="18" id="xrn-h2-p20"/>
                                                 </constraints>
                                             </view>
                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4rE-OB-Mkm">
-                                                <rect key="frame" x="117" y="572" width="142" height="24"/>
+                                                <rect key="frame" x="117" y="591" width="142" height="24"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="j3s-wx-m5U">
                                                         <rect key="frame" x="0.0" y="23" width="142" height="1"/>
@@ -3768,13 +3778,13 @@
                                     <view contentMode="scaleToFill" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="peg-zC-QFQ" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="334"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="X-FIT МОНАРХ ПРЕМИУМ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ws6-tj-QYS">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="СПОРТ-КЛУБ L-FITNESS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ws6-tj-QYS">
                                                 <rect key="frame" x="16" y="16" width="343" height="19"/>
                                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="16"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="900" text="Динамо, Ленинградский проспект, д.31а, стр.1" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KN-Rd-fRp">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="900" text="г. Николаев, пр. Центральный, 67" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KN-Rd-fRp">
                                                 <rect key="frame" x="16" y="47" width="343" height="14"/>
                                                 <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="12"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -3822,13 +3832,13 @@
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3Yi-cg-YoC">
                                                                         <rect key="frame" x="26" y="0.0" width="146" height="33"/>
                                                                         <subviews>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+7 (495) 232 40 22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siS-6t-B2u">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(0512)47-10-84" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="siS-6t-B2u">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="146" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="12"/>
                                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+7 (915) 331 47 47" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aX4-27-kqC">
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(068) 192-70-65" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aX4-27-kqC">
                                                                                 <rect key="frame" x="0.0" y="19" width="146" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="12"/>
                                                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -3874,7 +3884,7 @@
                                                                             </mask>
                                                                         </variation>
                                                                     </imageView>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+7 (495) 232 40 22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoV-mB-UOU">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(0512)47-10-84" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoV-mB-UOU">
                                                                         <rect key="frame" x="24" y="0.0" width="147" height="14"/>
                                                                         <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="12"/>
                                                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -3908,17 +3918,17 @@
                                             <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="fiI-Pr-doE">
                                                 <rect key="frame" x="16" y="229" width="343" height="50"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Z5E-Wo-WmB">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg_2" translatesAutoresizingMaskIntoConstraints="NO" id="Z5E-Wo-WmB">
                                                         <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ПЕРЕЗВОНИТЬ МНЕ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMb-vU-Kvp">
                                                         <rect key="frame" x="60" y="17" width="137" height="17"/>
                                                         <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opv-2R-l7i">
-                                                        <rect key="frame" x="307" y="15" width="15" height="20"/>
+                                                        <rect key="frame" x="310" y="15" width="15" height="20"/>
                                                         <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="20"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -3927,7 +3937,7 @@
                                                 <constraints>
                                                     <constraint firstItem="opv-2R-l7i" firstAttribute="centerY" secondItem="fiI-Pr-doE" secondAttribute="centerY" id="1tt-Ol-8g9"/>
                                                     <constraint firstAttribute="height" constant="50" id="2Ip-lo-zsW"/>
-                                                    <constraint firstAttribute="trailing" secondItem="opv-2R-l7i" secondAttribute="trailing" constant="21" id="F1m-Sf-wHF"/>
+                                                    <constraint firstAttribute="trailing" secondItem="opv-2R-l7i" secondAttribute="trailing" constant="18" id="F1m-Sf-wHF"/>
                                                     <constraint firstItem="Z5E-Wo-WmB" firstAttribute="top" secondItem="fiI-Pr-doE" secondAttribute="top" id="KWY-8I-Jkc"/>
                                                     <constraint firstAttribute="bottom" secondItem="Z5E-Wo-WmB" secondAttribute="bottom" id="bXG-Rj-EJV"/>
                                                     <constraint firstItem="EMb-vU-Kvp" firstAttribute="centerY" secondItem="fiI-Pr-doE" secondAttribute="centerY" id="k20-0a-5PC"/>
@@ -4855,17 +4865,17 @@
                                                                 <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="L6C-99-rug">
                                                                     <rect key="frame" x="0.0" y="139" width="311" height="50"/>
                                                                     <subviews>
-                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Ks4-Q6-sKe">
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg_2" translatesAutoresizingMaskIntoConstraints="NO" id="Ks4-Q6-sKe">
                                                                             <rect key="frame" x="0.0" y="0.0" width="311" height="50"/>
                                                                         </imageView>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЗАПИСАТЬСЯ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AY8-nP-Vvl">
                                                                             <rect key="frame" x="75" y="17" width="92" height="17"/>
                                                                             <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                            <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Za4-zC-0G4">
-                                                                            <rect key="frame" x="275" y="15" width="15" height="20"/>
+                                                                            <rect key="frame" x="280" y="15" width="15" height="20"/>
                                                                             <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="20"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                             <nil key="highlightedColor"/>
@@ -4873,7 +4883,7 @@
                                                                     </subviews>
                                                                     <constraints>
                                                                         <constraint firstAttribute="trailing" secondItem="Ks4-Q6-sKe" secondAttribute="trailing" id="0lh-hG-9gm"/>
-                                                                        <constraint firstAttribute="trailing" secondItem="Za4-zC-0G4" secondAttribute="trailing" constant="21" id="4I1-aZ-Ue0"/>
+                                                                        <constraint firstAttribute="trailing" secondItem="Za4-zC-0G4" secondAttribute="trailing" constant="16" id="4I1-aZ-Ue0"/>
                                                                         <constraint firstItem="AY8-nP-Vvl" firstAttribute="centerY" secondItem="L6C-99-rug" secondAttribute="centerY" id="6QY-ce-7wV"/>
                                                                         <constraint firstAttribute="bottom" secondItem="Ks4-Q6-sKe" secondAttribute="bottom" id="QqF-MQ-GMk"/>
                                                                         <constraint firstAttribute="height" constant="50" id="ST5-hO-YMA"/>
@@ -5150,25 +5160,25 @@
                                                     <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="COl-iY-h1B">
                                                         <rect key="frame" x="0.0" y="499" width="343" height="50"/>
                                                         <subviews>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="OlX-xz-L8d">
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="btn_bg_2" translatesAutoresizingMaskIntoConstraints="NO" id="OlX-xz-L8d">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                                             </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsF-9n-jah">
-                                                                <rect key="frame" x="307" y="15" width="15" height="20"/>
-                                                                <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="20"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ОТПРАВИТЬ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSI-Py-e9y">
                                                                 <rect key="frame" x="86" y="17" width="84" height="17"/>
                                                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
                                                                 <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsF-9n-jah">
+                                                                <rect key="frame" x="310" y="15" width="15" height="20"/>
+                                                                <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="20"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
                                                         </subviews>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="50" id="3Qf-qm-jkH"/>
-                                                            <constraint firstAttribute="trailing" secondItem="hsF-9n-jah" secondAttribute="trailing" constant="21" id="LME-cE-DgJ"/>
+                                                            <constraint firstAttribute="trailing" secondItem="hsF-9n-jah" secondAttribute="trailing" constant="18" id="LME-cE-DgJ"/>
                                                             <constraint firstAttribute="trailing" secondItem="OlX-xz-L8d" secondAttribute="trailing" id="QMd-4D-dPU"/>
                                                             <constraint firstItem="JSI-Py-e9y" firstAttribute="centerY" secondItem="COl-iY-h1B" secondAttribute="centerY" id="Xym-jD-UJc"/>
                                                             <constraint firstItem="OlX-xz-L8d" firstAttribute="top" secondItem="COl-iY-h1B" secondAttribute="top" id="ZfK-Wt-sGW"/>
@@ -5326,6 +5336,7 @@
         <image name="award6" width="39" height="44"/>
         <image name="award7" width="39" height="44"/>
         <image name="btn_bg" width="343" height="50"/>
+        <image name="btn_bg_2" width="343" height="44"/>
         <image name="icon-water" width="36" height="18"/>
         <image name="img_trubka" width="13" height="14"/>
         <image name="lfitness_logo" width="271" height="74"/>
@@ -5333,12 +5344,12 @@
         <image name="map_thumb" width="375" height="286"/>
         <image name="mask" width="750" height="468"/>
         <image name="selfy_thumb" width="40" height="40"/>
-        <image name="service_thumb_1" width="343" height="70"/>
+        <image name="service_thumb_1" width="1000" height="667"/>
         <image name="start" width="375" height="667"/>
         <image name="trainer1" width="375" height="234"/>
         <image name="yellow_label" width="95" height="70"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="B7r-F1-KYv"/>
+        <segue reference="u8w-aj-t2c"/>
     </inferredMetricsTieBreakers>
 </document>

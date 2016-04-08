@@ -83,7 +83,7 @@ class ServicesDetailVC: UIViewController {
         slideshow.pageControlPosition = PageControlPosition.InsideScrollView
         slideshow.pageControl.currentPageIndicatorTintColor = UIColor(red: 253/255, green: 218/255, blue: 0/255, alpha: 1.0)
         slideshow.pageControl.pageIndicatorTintColor = UIColor.lightGrayColor()
-        slideshow.contentScaleMode = UIViewContentMode.ScaleToFill
+        slideshow.contentScaleMode = UIViewContentMode.ScaleAspectFill
         
         slideshow.setImageInputs(imageSet)
         

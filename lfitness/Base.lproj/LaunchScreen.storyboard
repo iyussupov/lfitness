@@ -28,7 +28,7 @@
                                 <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="6Bq-lG-yyz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_img" translatesAutoresizingMaskIntoConstraints="NO" id="6Bq-lG-yyz">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
@@ -56,6 +56,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="start" width="375" height="667"/>
+        <image name="launch_img" width="375" height="667"/>
     </resources>
 </document>

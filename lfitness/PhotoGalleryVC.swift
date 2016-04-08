@@ -63,6 +63,7 @@ class PhotoGalleryVC: UIViewController, UICollectionViewDelegate, UICollectionVi
             let ctr = FullScreenSlideshowViewController()
             self.slideshow.setScrollViewPage(indexPath.row + 1, animated: false)
             ctr.slideshow.pageControlPosition = PageControlPosition.Hidden
+            ctr.slideshow.contentScaleMode = UIViewContentMode.ScaleAspectFill
             ctr.initialPage = slideshow.scrollViewPage
             ctr.inputs = slideshow.images
             self.transitionDelegate = ZoomAnimatedTransitioningDelegate(slideshowView: slideshow);
