@@ -34,7 +34,7 @@ class CheckInVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         textView.layer.borderWidth = 1.0
         textView.layer.borderColor = UIColor(red: 97/255, green: 97/255, blue: 97/255, alpha: 0.17).CGColor
         
-        let gotoHomeTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "gotoHomeTapFunc")
+        let gotoHomeTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(CheckInVC.gotoHomeTapFunc))
         self.gotoHome.addGestureRecognizer(gotoHomeTap)
         
     }

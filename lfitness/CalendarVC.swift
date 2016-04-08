@@ -32,11 +32,11 @@ class CalendarVC: UIViewController, UITableViewDataSource, UITableViewDelegate, 
         self.parseData()
         
         
-        let swipeLeft = UISwipeGestureRecognizer(target: self, action: "respondToSwipeGesture:")
+        let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(CalendarVC.respondToSwipeGesture(_:)))
         swipeLeft.direction = UISwipeGestureRecognizerDirection.Left
         self.tableView.addGestureRecognizer(swipeLeft)
         
-        let swipeRight = UISwipeGestureRecognizer(target: self, action: "respondToSwipeGesture:")
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(CalendarVC.respondToSwipeGesture(_:)))
         swipeRight.direction = UISwipeGestureRecognizerDirection.Right
         self.tableView.addGestureRecognizer(swipeRight)
 

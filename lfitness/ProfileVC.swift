@@ -29,10 +29,10 @@ class ProfileVC: UIViewController {
         super.viewDidLoad()
 
         
-        let facebookTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "addFacebookFunc:")
+        let facebookTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ProfileVC.addFacebookFunc(_:)))
         self.addFacebookWrapper.addGestureRecognizer(facebookTap)
         
-        let twitterTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "addTwitterFunc:")
+        let twitterTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ProfileVC.addTwitterFunc(_:)))
         self.addTwitterWrapper.addGestureRecognizer(twitterTap)
         
     }

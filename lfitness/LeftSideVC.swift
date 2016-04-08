@@ -24,9 +24,9 @@ class LeftSideVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "contentSizeDidChangeNotification:", name: UIContentSizeCategoryDidChangeNotification, object: nil)
-        //
+        
+//        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("contentSizeDidChangeNotification:"), name: UIContentSizeCategoryDidChangeNotification, object: nil)
+        
         
         tableView.dataSource = self
         tableView.delegate = self

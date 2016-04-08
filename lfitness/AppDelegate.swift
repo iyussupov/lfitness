@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = self.drawerController
         self.window?.makeKeyAndVisible()
         
-        UIApplication.sharedApplication().statusBarStyle = .Default
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
         
         return true
     }

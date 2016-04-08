@@ -43,7 +43,7 @@ class AboutVC: UIViewController {
         
         slideshow.setImageInputs([ImageSource(imageString: "foto1")!, ImageSource(imageString: "foto5")!, ImageSource(imageString: "foto3")!, ImageSource(imageString: "foto4")!])
         
-        let recognizer = UITapGestureRecognizer(target: self, action: "click")
+        let recognizer = UITapGestureRecognizer(target: self, action: #selector(AboutVC.click))
         slideshow.addGestureRecognizer(recognizer)
         
     }

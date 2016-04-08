@@ -413,13 +413,13 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BwW-7T-hvV">
                                                                 <rect key="frame" x="0.0" y="0.0" width="12" height="20"/>
                                                                 <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="20"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЗАЧЕКИНИТЬСЯ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GE-Tv-Lig">
                                                                 <rect key="frame" x="29" y="0.0" width="112" height="20"/>
                                                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play" pointSize="14"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" red="0.18431372549019609" green="0.19215686274509802" blue="0.50980392156862742" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -827,7 +827,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЗАКАЗАТЬ КЛУБНУЮ КАРТУ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M10-bN-4hL">
                                                 <rect key="frame" x="47" y="17" width="195" height="17"/>
                                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play" pointSize="14"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cyw-gY-GeN">
@@ -2271,17 +2271,11 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xNG-s9-b7M" userLabel="Header">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="НОВОСТИ / АКЦИИ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iri-j2-3ee">
-                                        <rect key="frame" x="60" y="41" width="255" height="17"/>
-                                        <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4li-71-l5k">
                                         <rect key="frame" x="10" y="31" width="30" height="36"/>
                                         <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="24"/>
                                         <state key="normal" title="">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="openMenu:" destination="5Zy-VD-m7v" eventType="touchUpInside" id="vDI-Sr-GsP"/>
@@ -2291,12 +2285,18 @@
                                         <rect key="frame" x="335" y="31" width="30" height="36"/>
                                         <fontDescription key="fontDescription" name="Ionicons" family="Ionicons" pointSize="24"/>
                                         <state key="normal" title="">
-                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="openProfile:" destination="5Zy-VD-m7v" eventType="touchUpInside" id="rY6-HR-duM"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" misplaced="YES" text="НОВОСТИ / АКЦИИ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iri-j2-3ee">
+                                        <rect key="frame" x="60" y="40" width="255" height="17"/>
+                                        <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
+                                        <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -2712,7 +2712,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_bg" translatesAutoresizingMaskIntoConstraints="NO" id="4v3-Ps-uh4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="4v3-Ps-uh4">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HMy-oa-dKr" customClass="LogoAnimation" customModule="lfitness" customModuleProvider="target">
@@ -5098,7 +5098,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="0.46274509800000002" green="0.74509803919999995" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="trailing" secondItem="uQs-Fj-fl8" secondAttribute="trailing" id="9OB-iN-n4T"/>
                                                             <constraint firstItem="4gF-IU-Xof" firstAttribute="top" secondItem="4eh-HQ-ckc" secondAttribute="top" constant="15" id="DtU-Yc-T7H"/>
@@ -5150,7 +5150,7 @@
                                                     <view contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="COl-iY-h1B">
                                                         <rect key="frame" x="0.0" y="499" width="343" height="50"/>
                                                         <subviews>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="OlX-xz-L8d">
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="btn_bg" translatesAutoresizingMaskIntoConstraints="NO" id="OlX-xz-L8d">
                                                                 <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hsF-9n-jah">
@@ -5162,7 +5162,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ОТПРАВИТЬ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JSI-Py-e9y">
                                                                 <rect key="frame" x="86" y="17" width="84" height="17"/>
                                                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play-Bold" pointSize="14"/>
-                                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                <color key="textColor" red="0.1843137255" green="0.19215686269999999" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -5334,10 +5334,11 @@
         <image name="mask" width="750" height="468"/>
         <image name="selfy_thumb" width="40" height="40"/>
         <image name="service_thumb_1" width="343" height="70"/>
+        <image name="start" width="375" height="667"/>
         <image name="trainer1" width="375" height="234"/>
         <image name="yellow_label" width="95" height="70"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dW3-Ii-9i7"/>
+        <segue reference="B7r-F1-KYv"/>
     </inferredMetricsTieBreakers>
 </document>

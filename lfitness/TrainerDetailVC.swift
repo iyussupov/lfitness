@@ -37,7 +37,7 @@ class TrainerDetailVC: UIViewController, UIScrollViewDelegate {
             scrollView.delegate = self
             self.updateUI()
             
-            let tap = UITapGestureRecognizer(target: self, action: "showImageViewer")
+            let tap = UITapGestureRecognizer(target: self, action: #selector(TrainerDetailVC.showImageViewer))
             imageViewer.addGestureRecognizer(tap)
             
         }

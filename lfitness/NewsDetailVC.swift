@@ -41,7 +41,7 @@ class NewsDetailVC: UIViewController, UIScrollViewDelegate  {
             scrollView.delegate = self
             self.updateUI()
             
-            let tap = UITapGestureRecognizer(target: self, action: "showImageViewer")
+            let tap = UITapGestureRecognizer(target: self, action: #selector(NewsDetailVC.showImageViewer))
             imageViewer.addGestureRecognizer(tap)
             
         }

@@ -31,7 +31,7 @@ class ServicesDetailVC: UIViewController {
         updateUI()
         
         
-        let swipeRight = UISwipeGestureRecognizer(target: self, action: "respondToSwipeGesture:")
+        let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(ServicesDetailVC.respondToSwipeGesture(_:)))
         swipeRight.direction = UISwipeGestureRecognizerDirection.Right
         self.view.addGestureRecognizer(swipeRight)
     }
@@ -87,7 +87,7 @@ class ServicesDetailVC: UIViewController {
         
         slideshow.setImageInputs(imageSet)
         
-        let recognizer = UITapGestureRecognizer(target: self, action: "click")
+        let recognizer = UITapGestureRecognizer(target: self, action: #selector(ServicesDetailVC.click))
         slideshow.addGestureRecognizer(recognizer)
  
     }

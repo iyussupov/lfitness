@@ -25,7 +25,7 @@ class LogoAnimation: UIImageView {
         self.animationImages = nil
         
         var imgArray = [UIImage]()
-        for var x = 0; x <= 82; x += 1 {
+        for x in 0..<83 {
             let img = UIImage(named: "xfit_\(x).png")
             
             imgArray.append(img!)

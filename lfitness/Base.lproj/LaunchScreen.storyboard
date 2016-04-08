@@ -22,37 +22,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_bg" translatesAutoresizingMaskIntoConstraints="NO" id="KuK-iC-ocJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ЗАГРУЗКА..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J0p-Qw-h8S">
                                 <rect key="frame" x="159" y="328" width="58" height="12"/>
                                 <fontDescription key="fontDescription" name="Play-Bold" family="Play" pointSize="10"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.84313725490000002" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xfit_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ChO-vT-OZb">
-                                <rect key="frame" x="100" y="258" width="174" height="92"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="92" id="V9C-qy-8KR"/>
-                                    <constraint firstAttribute="width" constant="174" id="asl-Bc-WXP"/>
-                                </constraints>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="6Bq-lG-yyz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="J0p-Qw-h8S" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="18o-53-8zp"/>
                             <constraint firstItem="J0p-Qw-h8S" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7BR-9J-Ifi"/>
-                            <constraint firstAttribute="trailing" secondItem="KuK-iC-ocJ" secondAttribute="trailing" id="E4i-E0-gRI"/>
-                            <constraint firstItem="KuK-iC-ocJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="YCn-z3-E6J"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="KuK-iC-ocJ" secondAttribute="bottom" id="ZzM-2B-lVA"/>
-                            <constraint firstItem="ChO-vT-OZb" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-30" id="kad-RU-7Dx"/>
-                            <constraint firstItem="KuK-iC-ocJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="loD-Nz-eoo"/>
-                            <constraint firstItem="ChO-vT-OZb" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="n35-kN-pd7"/>
+                            <constraint firstItem="6Bq-lG-yyz" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Sik-iz-KuB"/>
+                            <constraint firstItem="6Bq-lG-yyz" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="iLY-YZ-fGN"/>
+                            <constraint firstItem="6Bq-lG-yyz" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="tP5-jq-ccK"/>
+                            <constraint firstAttribute="trailing" secondItem="6Bq-lG-yyz" secondAttribute="trailing" id="vQN-bu-j6H"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6Bq-lG-yyz" secondAttribute="bottom" id="yMS-R1-jbc"/>
                         </constraints>
                         <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="ChO-vT-OZb"/>
+                            <mask key="constraints">
+                                <exclude reference="tP5-jq-ccK"/>
                             </mask>
                         </variation>
                     </view>
@@ -60,11 +52,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.5" y="374.5"/>
+            <point key="canvasLocation" x="53.5" y="366.5"/>
         </scene>
     </scenes>
     <resources>
-        <image name="main_bg" width="375" height="667"/>
-        <image name="xfit_logo" width="174" height="92"/>
+        <image name="start" width="375" height="667"/>
     </resources>
 </document>

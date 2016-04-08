@@ -41,34 +41,34 @@ class MainMenuVC: UIViewController {
         super.viewDidLoad()
    
         
-        let scheduleTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "scheduleTapFunc")
+        let scheduleTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.scheduleTapFunc))
         self.scheduleView.addGestureRecognizer(scheduleTap)
         
-        let newsTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "newsTapFunc")
+        let newsTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.newsTapFunc))
         self.newsView.addGestureRecognizer(newsTap)
         
-        let aboutTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "aboutTapFunc")
+        let aboutTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.aboutTapFunc))
         self.aboutView.addGestureRecognizer(aboutTap)
         
-        let photoGalleryTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "photoGalleryTapFunc")
+        let photoGalleryTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.photoGalleryTapFunc))
         self.photoGalleryView.addGestureRecognizer(photoGalleryTap)
         
-        let servicesTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "servicesTapFunc")
+        let servicesTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.servicesTapFunc))
         self.servicesView.addGestureRecognizer(servicesTap)
         
-        let trainersTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "trainersTapFunc")
+        let trainersTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.trainersTapFunc))
         self.trainersView.addGestureRecognizer(trainersTap)
         
-        let selfyTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "selfyTapFunc")
+        let selfyTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.selfyTapFunc))
         self.selfyView.addGestureRecognizer(selfyTap)
         
-        let contactsTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "contactsTapFunc")
+        let contactsTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.contactsTapFunc))
         self.contactsView.addGestureRecognizer(contactsTap)
         
-        let checkInTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "checkInTapFunc")
+        let checkInTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.checkInTapFunc))
         self.checkInView.addGestureRecognizer(checkInTap)
         
-        let profileTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "profileTapFunc")
+        let profileTap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(MainMenuVC.profileTapFunc))
         self.profileView.addGestureRecognizer(profileTap)
         
     }

@@ -33,10 +33,10 @@ class NewsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         override func viewDidLoad() {
             super.viewDidLoad()
             
-            NSNotificationCenter.defaultCenter().addObserver(self, selector: "contentSizeDidChangeNotification:", name: UIContentSizeCategoryDidChangeNotification, object: nil)
+//            NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("contentSizeDidChangeNotification:"), name: UIContentSizeCategoryDidChangeNotification, object: nil)
             
             self.refreshControl = UIRefreshControl()
-            self.refreshControl.addTarget(self, action: "refresh:", forControlEvents: UIControlEvents.ValueChanged)
+            self.refreshControl.addTarget(self, action: #selector(NewsVC.refresh(_:)), forControlEvents: UIControlEvents.ValueChanged)
             self.tableView.addSubview(refreshControl)
             
             tableView.dataSource = self
@@ -183,9 +183,9 @@ class NewsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
             
             if let cell = tableView.dequeueReusableCellWithIdentifier("NewsCell") as? NewsCell {
                 
-                let tap = UITapGestureRecognizer(target: self, action: "showImageViewer:")
-                cell.featuredImg.addGestureRecognizer(tap)
-                cell.featuredImg.tag = indexPath.row
+//                let tap = UITapGestureRecognizer(target: self, action: #selector(NewsCell.showImageViewer(_:)))
+//                cell.featuredImg.addGestureRecognizer(tap)
+//                cell.featuredImg.tag = indexPath.row
                 
                 var img: UIImage?
                 
