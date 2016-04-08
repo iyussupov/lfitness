@@ -75,7 +75,7 @@ class CalendarWeekViewControllerView: UIView, UIScrollViewDelegate, CalendarWeek
 //        print(dadd.dayOfWeek)
         prevWeekDay = presentWeekDay.addDay(-7)
         nextWeekDay = presentWeekDay.addDay(7)
-        for var i = 0; i < 7; i++ {
+        for i in 0 ..< 7 {
             let presentDate = presentWeekDay.addDay(i)
             presentWeek.append(presentDate)
             let prevDate = prevWeekDay.addDay(i)
@@ -203,7 +203,7 @@ class CalendarWeekViewControllerView: UIView, UIScrollViewDelegate, CalendarWeek
     func getDayOfWeek(weekDay: GDate) -> [GDate]{
         var weekDays = [GDate]()
         var day = weekDay
-        for var i = 0; i < 7; i++ {
+        for i in 0 ..< 7 {
             let date = day.addDay(i)
             weekDays.append(date)
         }

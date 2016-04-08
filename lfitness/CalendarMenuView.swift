@@ -15,7 +15,7 @@ class CalendarMenuView: UIView {
     */
     var weekDayName = ["ПН", "ВТ", "СР", "ЧТ", "ПН", "СБ", "ВС"]
     var padding: CGFloat = 0.0
-    var labelFont: UIFont = UIFont(name: "DINPro", size: 14)!
+    var labelFont: UIFont = UIFont(name: "Play-Bold", size: 14)!
     
     override init(frame: CGRect) {
         super.init(frame: frame)

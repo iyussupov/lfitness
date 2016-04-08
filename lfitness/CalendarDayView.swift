@@ -39,16 +39,16 @@ class CalendarDayView: UIView {
     }
     
     
-    var selectedDayFillColor: UIColor = UIColor.greenColor()
-    var presentDayFillColor: UIColor = UIColor.greenColor()
+    var selectedDayFillColor: UIColor = UIColor(red: 251/255, green: 215/255, blue: 30/255, alpha: 1.0)
+    var presentDayFillColor: UIColor = UIColor(red: 251/255, green: 215/255, blue: 30/255, alpha: 1.0)
     
     var normalDayFontColor: UIColor = UIColor.whiteColor()
-    var presentDayFontColor: UIColor = UIColor.greenColor()
-    var selectedDayFontColor: UIColor = UIColor.greenColor()
+    var presentDayFontColor: UIColor = UIColor(red: 251/255, green: 215/255, blue: 30/255, alpha: 1.0)
+    var selectedDayFontColor: UIColor = UIColor(red: 251/255, green: 215/255, blue: 30/255, alpha: 1.0)
     
-    var normalDayFont: UIFont = UIFont(name: "DINPro", size: 14)!
-    var presentDayFont: UIFont = UIFont(name: "DINPro", size: 14)!
-    var selectedDayFont: UIFont = UIFont(name: "DINPro", size: 14)!
+    var normalDayFont: UIFont = UIFont(name: "Play-Bold", size: 14)!
+    var presentDayFont: UIFont = UIFont(name: "Play-Bold", size: 14)!
+    var selectedDayFont: UIFont = UIFont(name: "Play-Bold", size: 14)!
 
     /*
     // Only override drawRect: if you perform custom drawing.
@@ -81,12 +81,12 @@ class CalendarDayView: UIView {
         
         
         bottomBorder = UIView(frame: CGRectMake(0, dateLabel!.frame.height - 2, dateLabel!.frame.width, 2))
-        bottomBorder!.backgroundColor = UIColor(red: 118/255, green: 190/255, blue: 52/255, alpha: 1.0)
+        bottomBorder!.backgroundColor = UIColor(red: 251/255, green: 215/255, blue: 30/255, alpha: 1.0)
         bottomBorder!.layer.zPosition = 2
         bottomBorder!.hidden = true
         dateLabel!.addSubview(bottomBorder!)
         
-        let tapGesture = UITapGestureRecognizer(target: self, action: "selectDay:")
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(CalendarDayView.selectDay(_:)))
         tapGesture.numberOfTapsRequired = 1
         self.addGestureRecognizer(tapGesture)
     }
