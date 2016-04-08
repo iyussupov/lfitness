@@ -55,18 +55,18 @@ class NewsVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         func parseDataFromParse() {
             
-            let PostsQuery: PFQuery =  PFQuery(className:"Post")
-            PostsQuery.findObjectsInBackgroundWithBlock { (objects:[PFObject]?, error: NSError?) -> Void in
-                
-                if error == nil {
-                    
-                    for object in objects! {
-                        print(object)
-                    }
-                    
-                }
-                
-            }
+//            let PostsQuery: PFQuery =  PFQuery(className:"Post")
+//            PostsQuery.findObjectsInBackgroundWithBlock { (objects:[PFObject]?, error: NSError?) -> Void in
+//                
+//                if error == nil {
+//                    
+//                    for object in objects! {
+//                        print(object)
+//                    }
+//                    
+//                }
+//                
+//            }
 
                     
                    let objects = [[
