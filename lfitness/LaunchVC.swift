@@ -21,7 +21,7 @@ class LaunchVC: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         
         do {
-            let resourcePath = NSBundle.mainBundle().pathForResource("soundxfit", ofType: "mp3")!
+            let resourcePath = NSBundle.mainBundle().pathForResource("lfit_sound", ofType: "mp3")!
             let url = NSURL(fileURLWithPath: resourcePath)
             try musicPlayer = AVAudioPlayer(contentsOfURL: url)
             
